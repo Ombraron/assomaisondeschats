@@ -11,15 +11,11 @@ ul {
     margin: 0;
 }
 
-li {
-    list-style-type: none;
-}
-
 h2 {
     text-transform: uppercase;
     text-align: center;
     padding-top: 30px;
-    font-size: 2em;
+    font-size: 3em;
 }
 
 a {
@@ -40,6 +36,7 @@ nav {
 header li {
     float: left;
     font-size: 1.2em;
+    list-style-type: none;
 }
 
 header li a {
@@ -49,7 +46,7 @@ header li a {
     padding: 18px 16px;
 }
 
-/* ****************IMAGE ACCEUIL******************** */
+/* ****************IMAGE ACCEUIL********************* */
 
 #imageAcceuil {
     padding-top: 60px;
@@ -63,6 +60,7 @@ h1 {
     color: antiquewhite;
     font-size: 6em;
     margin-top: 70px;
+    text-shadow: 10px 10px 2px black;
 }
 
 #premierTrait {
@@ -70,5 +68,86 @@ h1 {
     width: 25%;
     margin: -3px auto;
     background-color: #FFFAE1;
+    box-shadow: 1px 3px 2px black;
+}
 
+/* ******************DESCRIPTION******************* */
+
+#description {
+    background-color: #d1f3a5;
+    padding: 10px 0px 100px 0px;
+}
+
+#mission {
+    padding: 20px 20%;
+    font-size: 20px;
+}
+
+.imagechats {
+    text-align: center;
+    padding: 50px;  
+}
+
+.imagechats img {
+    border-radius: 10%;
+    width: 100%;
+    height: auto;
+    max-width: 700px;
+}
+
+#accompagnement {
+    padding: 20px 30%;
+    font-size: 20px;
+    list-style-type: circle ;
+}
+
+/* ***********************FOOTER********************** */
+
+footer {
+    background-color: rgb(196, 230, 104);
+    padding: 20px 0px 10px 0px;
+    text-align: center;
+}
+
+form {
+    margin: 0 auto;
+    max-width: 900px;
+}
+input, textarea, button {
+    border: none;
+    width: 55%;
+    padding: 15px 10px;
+    margin: 2px 0;
+    font-family: 'Lobster', cursive;
+    border-radius: 8px;
+}
+button:hover {
+    background-color: #FFFAE1;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+#deuxiemeTrait {
+    height: 1px;
+    width: 75%;
+    background-color: #030303;
+    margin: 60px auto;
+}
+
+#copyrightetIcons {
+    display: flex;
+    margin-bottom: 20px;
+    padding: 0 10%;
+
+}
+
+#copyright {
+    width: 50%;
+    text-align: left;
+    color: black
+}
+
+#Icons {
+    width: 50%;
+    text-align: right;
 }
