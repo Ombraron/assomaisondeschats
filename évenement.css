@@ -16,7 +16,7 @@ h2 {
     text-transform: uppercase;
     text-align: center;
     padding-top: 30px;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 a {
@@ -48,9 +48,9 @@ header li a {
 h1 {
     text-align: center;
     color: antiquewhite;
-    font-size: 4em;
+    font-size: 3em;
     margin-top: 0px;
-    padding: 110px 0px 0px 0px;
+    padding: 190px 0px 0px 0px;
     text-shadow: 1px 6px 2px black;
 }
 
@@ -69,13 +69,13 @@ h1 {
 
 .imagechats img {
     border-radius: 10%;
-    width: 100%;
+    width: 79%;
     height: auto;
     max-width: 700px;
 }
 
 #description {
-    padding: 60px 0px 40px 0px;
+    padding: 0px 0px 40px 0px;
 }
 
 #détail {
@@ -84,8 +84,7 @@ h1 {
 }
 
 #questions {
-    padding: 0px 30%;
-    font-size: 20px;  
+    padding: 0px 30%;  
 }
 
 #deuxiemeTrait {
@@ -114,6 +113,18 @@ h1 {
 }
 
 @media screen and (min-width : 1280px) {
+    h1 {
+        font-size: 4em;
+    }  
+    h2 {
+        font-size: 3em;
+    }
+    #description {
+        padding: 30px 0px 10px 0px;
+    }
+    #questions {
+        padding: 0px 30%;
+        font-size: 20px;  
+    }
   
-
-}
+  }
